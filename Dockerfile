@@ -22,4 +22,4 @@ RUN Rscript -e "BiocManager::install(c('ggplot2', 'cowplot', 'countrycode', 'map
 RUN Rscript -e "install.packages('https://github.com/NovembreLab/PCAviz/archive/f5280bc.tar.gz', repos = NULL, type='source')"
 
 # Install R packages from CRAN and BioConductor repos
-RUN Rscript -e "BiocManager::install(c('ggplot2','ggtree', 'dplyr', 'ggnewscale', 'PCAviz', 'pcadapt', 'colorRamps', 'ape', 'phylobase', 'tidyr'))"
+RUN Rscript -e "BiocManager::install(c('ggplot2','ggtree', 'dplyr', 'ggnewscale', 'pcadapt', 'colorRamps', 'ape', 'phylobase', 'tidyr'))"
